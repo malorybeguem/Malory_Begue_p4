@@ -558,6 +558,13 @@ a[data-lightbox]:hover::before {
     font-size: 15px;
     font-style: italic;
 }
+#title_end{
+    color: #FFF;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
@@ -718,7 +725,9 @@ h3 {
     font-weight: 700;
     color: #333333!important;
 }
-
+.bloc-lg .row h2{
+    font-size: 18px;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
