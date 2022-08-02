@@ -554,7 +554,10 @@ a[data-lightbox]:hover::before {
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-
+.text-center, .citation, .citation_author{
+    font-size: 15px;
+    font-style: italic;
+}
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
@@ -772,15 +775,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #D14904;
 }
 
-.tc-white {
-    color: #F3976C!important;
+.col-sm-12 h1, .col-sm-12 p {
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #db4900;
     color: #FFFFFF!important;
 }
 
