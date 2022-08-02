@@ -557,6 +557,8 @@ a[data-lightbox]:hover::before {
 .text-center, .citation, .citation_author{
     font-size: 15px;
     font-style: italic;
+    width: 100%;
+    margin: 0;
 }
 #title_end{
     color: #FFF;
