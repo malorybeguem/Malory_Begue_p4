@@ -644,7 +644,6 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -757,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(41, 40, 39, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,11 +774,19 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #D14904;
+    background-color: #b43c00;
 }
 
 .col-sm-12 h1, .col-sm-12 p {
     color: #ffffff!important;
+}
+.col-sm-12 h2{
+    color: #e96625;
+    font-size: 20px;
+    font-weight: bold;
+}
+.col-sm-12 p{
+    font-size: 15px;
 }
 
 .btn-atomic-tangerine {
@@ -827,6 +834,27 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+footer .container div{
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 35%;
+}
+footer ul li{
+    margin-left: 20px;
+}
+footer p{
+    width: 100%;
+    flex-wrap: nowrap;
 }
 
 @media (max-width: 1024px) {
