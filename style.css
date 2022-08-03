@@ -864,6 +864,9 @@ footer .container{
 footer .container div{
     width: 100%;
 }
+.col-sm-3 p{
+    margin-bottom: 15px;
+}
 footer ul{
     display: flex;
     flex-direction: row;
