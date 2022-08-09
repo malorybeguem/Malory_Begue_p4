@@ -563,7 +563,7 @@ a[data-lightbox]:hover::before {
     width: 100%;
     margin: 0;
 }
-#title_end{
+.title_end{
     color: #FFF;
     font-size: 15px;
     display: flex;
