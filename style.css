@@ -880,6 +880,12 @@ footer p{
     width: 100%;
     flex-wrap: nowrap;
 }
+footer{
+    background-color: #b43c00;
+}
+footer .icon-md{
+    color: white;
+}
 
 @media (max-width: 1024px) {
     .bloc {
